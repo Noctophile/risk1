@@ -1,7 +1,7 @@
 <p align="center">
-    <a href="">
+    <a href="https://github.com/weebzone/WZML">
         <kbd>
-            <img width="250" src="" alt="">
+            <img width="250" src="https://graph.org/file/639fe4239b78e5862b302.jpg" alt="WZML-X Logo">
         </kbd>
     </a>
 
