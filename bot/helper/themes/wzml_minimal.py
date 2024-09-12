@@ -6,7 +6,7 @@ class WZMLStyle:
     ST_BN1_URL = 'https://t.me/LeechxMirrorGroup'
     ST_BN2_NAME = 'Owner'
     ST_BN2_URL = 'https://t.me/RD_C4'
-    ST_MSG = '''<b><blockquote>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.</blockquote></b>>
+    ST_MSG = '''<b><pre><blockquote>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.</blockquote></pre></b>>
 <b>Type {help_command} to get a list of available commands</b>'''
     ST_BOTPM = '''<i><blockquote>Now, This bot will send all your files and links here. Start Using ...</blockquote></i>'''
     ST_UNAUTH = '''<i>You Are not authorized user!</i>'''
