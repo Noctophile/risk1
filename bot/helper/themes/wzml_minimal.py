@@ -36,7 +36,7 @@ class WZMLStyle:
     MICS_BT = 'Mics'
     O_S_BT = 'Owner & Sudos'
     CLOSE_BT = 'Close'
-    HELP_HEADER = "㊂ <b><i>Help Guide Menu!</i></b>\n\n<b>NOTE: <i>Click on any CMD to see more minor detalis.</i></b>"
+    HELP_HEADER = "🚨 <b><i>Help Guide Menu!</i></b>\n\n<b>NOTE: <i>Click on any CMD to see more minor detalis.</i></b>"
 
     # async def stats(client, message):
     BOT_STATS = '''<blockquote>⌬ <b><i>BOT STATISTICS :</i></b>
@@ -103,21 +103,21 @@ class WZMLStyle:
     # ---------------------
 
     # async def restart(client, message): ---> __main__.py
-    RESTARTING = '<i>OH BHAI...Restarting...</i>'
+    RESTARTING = '<i>🌀OH BHAI...Restarting...</i>'
     # ---------------------
 
     # async def restart_notification(): ---> __main__.py
-    RESTART_SUCCESS = '''<blockquote>⌬ <b><i>Restarted Successfully!</i></b>
+    RESTART_SUCCESS = '''<blockquote>🌋 <b><i>Restarted Successfully!</i></b>
 ┠ <b>Date:</b> {date}
 ┠ <b>Time:</b> {time}
 ┠ <b>TimeZone:</b> {timz}
 ┖ <b>Version:</b> {version}</blockquote>'''
-    RESTARTED = '''<blockquote>⌬ <b><i>Bot Restarted!</i></b></blockquote>'''
+    RESTARTED = '''<blockquote>🍁 <b><i>Bot Restarted!</i></b></blockquote>'''
     # ---------------------
 
     # async def ping(client, message): ---> __main__.py
     PING = '<i>Starting Ping..</i>'
-    PING_VALUE = '<b>Tunik</b>\n<code>{value} ms..</code>'
+    PING_VALUE = '<b>Tunik🐾</b>\n<code>{value} ms..</code>'
     # ---------------------
 
     # async def onDownloadStart(self): --> tasks_listener.py
@@ -172,7 +172,7 @@ class WZMLStyle:
 
     # def get_readable_message(): ---> bot_utilis.py
     ####--------OVERALL MSG HEADER----------
-    STATUS_NAME =       '<code><b><i>⏤͟͞𝙍𝙞𝙯𝙯|{Name}</i></b></code>'
+    STATUS_NAME =       '<code><b><i>⏤͟͞𝙍𝙞𝙯𝙯❄️|{Name}</i></b></code>'
 
     #####---------PROGRESSIVE STATUS-------
     BAR =               '<blockquote>\n┃ {Bar}</blockquote>'
@@ -187,33 +187,33 @@ class WZMLStyle:
     LEECHERS =                                           '<b>Leechers:</b> {Leechers}</blockquote>'
 
     ####--------SEEDING----------
-    SEED_SIZE =      '\n┠ <b>Size: </b>{Size}'
-    SEED_SPEED =     '\n┠ <b>Speed: </b> {Speed} | '
-    UPLOADED =                                     '<b>Uploaded: </b> {Upload}'
-    RATIO =          '\n┠ <b>Ratio: </b> {Ratio} | '
-    TIME =                                         '<b>Time: </b> {Time}'
-    SEED_ENGINE =    '\n┠ <b>Engine:</b> {Engine}'
+    SEED_SIZE =      '<blockquote>\n┠ <b>Size: </b>{Size}</blockquote>'
+    SEED_SPEED =     '<blockquote>\n┠ <b>Speed: </b> {Speed} | '
+    UPLOADED =                                     '<b>Uploaded: </b> {Upload}</blockquote>'
+    RATIO =          '<blockquote>\n┠ <b>Ratio: </b> {Ratio} | '
+    TIME =                                         '<b>Time: </b> {Time}</blockquote>'
+    SEED_ENGINE =    '<blockquote>\n┠ <b>Engine:</b> {Engine}</blockquote>'
 
     ####--------NON-PROGRESSIVE + NON SEEDING----------
-    STATUS_SIZE =    '\n┠ <b>Size: </b>{Size}'
-    NON_ENGINE =     '\n┠ <b>Engine:</b> {Engine}'
+    STATUS_SIZE =    '<blockquote>\n┠ <b>Size: </b>{Size}</blockquote>'
+    NON_ENGINE =     '<blockquote>\n┠ <b>Engine:</b> {Engine}</blockquote>'
 
     ####--------OVERALL MSG FOOTER----------
-    USER =              '\n┠ <b>User:</b> <code>{User}</code> | '
-    ID =                                                        '<b>ID:</b> <code>{Id}</code>'
-    BTSEL =          '\n┠ <b>Select:</b> {Btsel}'
-    CANCEL =         '\n┖ {Cancel}\n\n'
+    USER =              '<blockquote>\n┠ <b>User:</b> <code>{User}</code> | '
+    ID =                                                        '<b>ID:</b> <code>{Id}</code></blockquote>'
+    BTSEL =          '<blockquote>\n┠ <b>Select:</b> {Btsel}</blockquote>'
+    CANCEL =         '<blockquote>\n┖ {Cancel}\n\n</blockquote>'
 
     ####------FOOTER--------
-    FOOTER = '⌬ <b><i>Bot Stats</i></b>\n'
-    TASKS =  '┠ <b>Tasks:</b> {Tasks}\n'
-    BOT_TASKS = '┠ <b>Tasks:</b> {Tasks}/{Ttask} | <b>AVL:</b> {Free}\n'
-    Cpu = '┠ <b>CPU:</b> {cpu}% | '
-    FREE =                      '<b>F:</b> {free} [{free_p}%]'
-    Ram = '\n┠ <b>RAM:</b> {ram}% | '
-    uptime =                     '<b>UPTIME:</b> {uptime}'
-    DL = '\n┖ <b>DL:</b> {DL}/s | '
-    UL =                        '<b>UL:</b> {UL}/s'
+    FOOTER = '<blockquote>⌬ <b><i>Bot Stats</i></b>\n</blockquote>'
+    TASKS =  '<blockquote>┠ <b>Tasks:</b> {Tasks}\n</blockquote>'
+    BOT_TASKS = '<blockquote>┠ <b>Tasks:</b> {Tasks}/{Ttask} | <b>AVL:</b> {Free}\n</blockquote>'
+    Cpu = '<blockquote>┠ <b>CPU:</b> {cpu}% | '
+    FREE =                      '<b>F:</b> {free} [{free_p}%]</blockquote>'
+    Ram = '<blockquote>\n┠ <b>RAM:</b> {ram}% | '
+    uptime =                     '<b>UPTIME:</b> {uptime}</blockquote>'
+    DL = '<blockquote>\n┖ <b>DL:</b> {DL}/s | '
+    UL =                        '<b>UL:</b> {UL}/s</blockquote>'
 
     ###--------BUTTONS-------
     PREVIOUS = '⬅️'
@@ -226,32 +226,32 @@ class WZMLStyle:
     # ---------------------
 
     # async def countNode(_, message): ----> gd_count.py
-    COUNT_MSG = '<b>Counting:</b> <code>{LINK}</code>'
-    COUNT_NAME = '<b><i>{COUNT_NAME}</i></b>\n┃\n'
-    COUNT_SIZE = '┠ <b>Size: </b>{COUNT_SIZE}\n'
-    COUNT_TYPE = '┠ <b>Type: </b>{COUNT_TYPE}\n'
-    COUNT_SUB =  '┠ <b>SubFolders: </b>{COUNT_SUB}\n'
-    COUNT_FILE = '┠ <b>Files: </b>{COUNT_FILE}\n'
-    COUNT_CC =   '┖ <b>By: </b>{COUNT_CC}\n'
+    COUNT_MSG = '<blockquote><b>Counting:</b> <code>{LINK}</code></blockquote>'
+    COUNT_NAME = '<blockquote><b><i>{COUNT_NAME}</i></b>\n┃\n</blockquote>'
+    COUNT_SIZE = '<blockquote>┠ <b>Size: </b>{COUNT_SIZE}\n</blockquote>'
+    COUNT_TYPE = '<blockquote>┠ <b>Type: </b>{COUNT_TYPE}\n</blockquote>'
+    COUNT_SUB =  '<blockquote>┠ <b>SubFolders: </b>{COUNT_SUB}\n</blockquote>'
+    COUNT_FILE = '<blockquote>┠ <b>Files: </b>{COUNT_FILE}\n</blockquote>'
+    COUNT_CC =   '<blockquote>┖ <b>By: </b>{COUNT_CC}\n</blockquote>'
     # ---------------------
 
     # LIST ---> gd_list.py
-    LIST_SEARCHING = '<b>Searching for <i>{NAME}</i></b>'
-    LIST_FOUND = '<b>Found {NO} result for <i>{NAME}</i></b>'
-    LIST_NOT_FOUND = 'No result found for <i>{NAME}</i>'
+    LIST_SEARCHING = '<blockquote><b>Searching for <i>{NAME}</i></b></blockquote>'
+    LIST_FOUND = '<blockquote><b>Found {NO} result for <i>{NAME}</i></b></blockquote>'
+    LIST_NOT_FOUND = '<blockquote>No result found for <i>{NAME}</i></blockquote>'
     # ---------------------
 
     # async def mirror_status(_, message): ----> status.py
-    NO_ACTIVE_DL = '''<i>No Active Downloads!</i>
+    NO_ACTIVE_DL = '''<blockquote><i>No Active Downloads!</i>
     
 ⌬ <b><i>Bot Stats</i></b>
 ┠ <b>CPU:</b> {cpu}% | <b>F:</b> {free} [{free_p}%]
-┖ <b>RAM:</b> {ram} | <b>UPTIME:</b> {uptime}
+┖ <b>RAM:</b> {ram} | <b>UPTIME:</b> {uptime}</blockquote>
     '''
     # ---------------------
 
     # USER Setting --> user_setting.py 
-    USER_SETTING = '''㊂ <b><u>User Settings :</u></b>
+    USER_SETTING = '''<blockquote>🔮 <b><u>User Settings :</u></b>
         
 ┎<b> Name :</b> {NAME} ( <code>{ID}</code> )
 ┠<b> Username :</b> {USERNAME}
@@ -259,9 +259,9 @@ class WZMLStyle:
 ┖<b> Language :</b> {LANG}
 
 ➲ <u><b>Available Args:</b></u>
-• <b>-s</b> or <b>-set</b>: Set Directly via Arg'''
+• <b>-s</b> or <b>-set</b>: Set Directly via Arg</blockquote>'''
 
-    UNIVERSAL = '''㊂ <b><u>Universal Settings : {NAME}</u></b>
+    UNIVERSAL = '''<blockquote>🗿 <b><u>Universal Settings : {NAME}</u></b>
 
 ┎<b> YT-DLP Options :</b> <b><code>{YT}</code></b>
 ┠<b> Daily Tasks :</b> <code>{DT}</code> per day
@@ -269,9 +269,9 @@ class WZMLStyle:
 ┠<b> User Session :</b> <code>{USESS}</code>
 ┠<b> MediaInfo Mode :</b> <code>{MEDIAINFO}</code>
 ┠<b> Save Mode :</b> <code>{SAVE_MODE}</code>
-┖<b> User Bot PM :</b> <code>{BOT_PM}</code>'''
+┖<b> User Bot PM :</b> <code>{BOT_PM}</code></blockquote>'''
 
-    MIRROR = '''㊂ <b><u>Mirror/Clone Settings : {NAME}</u></b>
+    MIRROR = '''<blockquote>☠ <b><u>Mirror/Clone Settings : {NAME}</u></b>
 
 ┎<b> RClone Config :</b> <i>{RCLONE}</i>
 ┠<b> Mirror Prefix :</b> <code>{MPREFIX}</code>
@@ -280,9 +280,9 @@ class WZMLStyle:
 ┠<b> DDL Server(s) :</b> <i>{DDL_SERVER}</i>
 ┠<b> User TD Mode :</b> <i>{TMODE}</i>
 ┠<b> Total User TD(s) :</b> <i>{USERTD}</i>
-┖<b> Daily Mirror :</b> <code>{DM}</code> per day'''
+┖<b> Daily Mirror :</b> <code>{DM}</code> per day</blockquote>'''
 
-    LEECH = '''㊂ <b><u>Leech Settings for {NAME}</u></b>
+    LEECH = '''<blockquote>❄️ <b><u>Leech Settings for {NAME}</u></b>
 
 ┎<b> Daily Leech : </b><code>{DL}</code> per day
 ┠<b> Leech Type :</b> <i>{LTYPE}</i>
@@ -294,4 +294,4 @@ class WZMLStyle:
 ┠<b> Leech Prefix :</b> <code>{LPREFIX}</code>
 ┠<b> Leech Suffix :</b> <code>{LSUFFIX}</code>
 ┠<b> Leech Dumps :</b> <code>{LDUMP}</code>
-┖<b> Leech Remname :</b> <code>{LREMNAME}</code>'''
+┖<b> Leech Remname :</b> <code>{LREMNAME}</code></blockquote>'''
