@@ -6,7 +6,7 @@ class WZMLStyle:
     ST_BN1_URL = 'https://t.me/aboutRizzx'
     ST_BN2_NAME = 'Owner'
     ST_BN2_URL = 'https://t.me/RD_C4'
-    ST_MSG = '''<pre><b>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.Type {help_command} to get a list of available commands</b></pre>'''
+    ST_MSG = '''<blockquote><b>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.Type {help_command} to get a list of available commands</b></blockquote>'''
     ST_BOTPM = '''<i>Now, This bot will send all your files and links here. Start Using ...</i>'''
     ST_UNAUTH = '''<i>You Are not authorized user!</i>'''
     OWN_TOKEN_GENERATE = '''<b>Temporary Token is not yours!</b>\n\n<i>Kindly generate your own.</i>'''
