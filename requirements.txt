@@ -30,7 +30,7 @@ psutil
 pybase64
 pycountry
 pymongo
-git+https://github.com/KurimuzonAkuma/pyrogram
+pyrofork==2.2.11
 python-dotenv
 python-magic
 qbittorrent-api
@@ -42,4 +42,4 @@ tgcrypto
 uv
 uvloop
 xattr
-yt-dlp==2023.10.07
+yt-dlp
